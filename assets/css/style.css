@@ -152,6 +152,16 @@ transition: 1s;}
   float: left;
   position: relative;
 }
+.latest-news h2:after {
+  content: '';
+  display: block;
+  width: 180px;
+  height: 3px;
+  background: #d00000;
+  margin: 0 auto; }
+
+.latest-news h2{margin: 70px 0 20px 0;}
+
 .latest-news .box .box-left .text{
   padding: 20px;
   position: absolute;
@@ -204,6 +214,7 @@ transition: 1s;}
   float: right;
   padding-top: 20px;
 }
+.latest-news .column-left .content-bottom-left .content-text{ padding-left: 0;}
 /*footer*/
 
 .footer{margin-top: 100px;}
@@ -214,3 +225,7 @@ transition: 1s;}
   float: right;
   display: flex;}
 .footer .social-media p{float: left;}
+
+
+
+
