@@ -44,7 +44,12 @@ p.date{color: #615d5d;}
   bottom: 0;
   right: 0;
   background:  #cec;}
-
+ .title .main-box .box-center img{
+  position: absolute;
+  bottom: -5px;
+  right: 10px;
+  width: 425px;
+ }
  .title .main-box .view-profile{
   width: 28.5%;
   bottom: 0;
