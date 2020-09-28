@@ -1,82 +1,4 @@
-header{
-  z-index: 1;
-  position: absolute;
-  width: 100%;}
-header .collapse{ justify-content: space-between;}
-header .collapse a.navbar-brand{
-  margin:0 ;
-  font-weight: bold;
-  font-size: 30px;}
-h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
-p,a{font-family: 'Montserrat', sans-serif;}
-p.date{color: #615d5d;}
-.title{
-  position: relative;
-  width: 100%;
-  height: 700px;
-  top: 0;
-  left: 0;}
-.title .box-right{
-  width: 37%;
-  height: 400px;
-  float: right;
-  background: aqua;}
- .title .main-box{
-  width: 70%;
-  height: 550px;
-  position: absolute;
-  bottom: 0;
-  left: 2%;}
- .title .main-box .text{
-  z-index: 1;
-  position: absolute;
-  top: 40%;
-  left: 15%;
-  width: 300px;}
- .title .main-box .text h2{  font-size: 48px; }
- .title .main-box .text p{  
-  font-size: 12px;
-  padding: 20px 0; }
- .title .main-box .box-center{
-  position: absolute;
-  width: 80%;
-  height: 550px;
-  bottom: 0;
-  right: 0;
-  background:  #cec;}
- .title .main-box .box-center img{
-  position: absolute;
-  bottom: -5px;
-  right: 10px;
-  width: 425px;
- }
- .title .main-box .view-profile{
-  width: 28.5%;
-  bottom: 0;
-  left: 0;
-  height: 10%;
-  background: yellow;
-  position: absolute;}
 
- .title .main-box .view-profile .left-box{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background: #93ecec; 
-  height: 100%;
-  float: left;
-  color: #fff;
-  width: 70%; }
- .title .main-box .view-profile .left-box p{ font-size: 10px; }
- .title .main-box .view-profile .rigth-box{
-  height: 100%;
-  width: 30%;
-  background: white;
-  float: right;
-  justify-content: center;
-  align-items: center;
-  display: flex; }
-  .title .main-box .view-profile .rigth-box i{font-size: 40px;color: #000; }
 /*tabs*/
 .guides .nav-tabs{justify-content: center;}
 .guides .nav li a{color: #000;}
@@ -215,16 +137,7 @@ transition: 1s;}
   padding-top: 20px;
 }
 .latest-news .column-left .content-bottom-left .content-text{ padding-left: 0;}
-/*footer*/
 
-.footer{margin-top: 100px;}
-.footer i{padding-left: 25px;font-weight: bold;}
-.footer h4{font-weight: bold;}
-.footer .newsletter,
-.footer .social-media .newsletter{
-  float: right;
-  display: flex;}
-.footer .social-media p{float: left;}
 
 
 
